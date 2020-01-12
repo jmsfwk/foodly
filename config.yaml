@@ -2,3 +2,9 @@ baseURL: http://example.org/
 languageCode: en-gb
 title: Recipes
 theme: hugo-coder
+
+menu:
+  main:
+    - name: Recipes
+      weight:  1
+      url: /recipes/
