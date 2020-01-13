@@ -2,6 +2,9 @@
 title: "Turkish Carrot and Lentil Soup"
 date: 2020-01-12T22:47:26Z
 draft: false
+tags:
+  - Soup
+  - Vegetarian
 nutrition:
     energy_kj: 238
     energy_kcal: 57
