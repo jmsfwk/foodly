@@ -1,0 +1,11 @@
+<section class="container">
+  <h1>Latest Recipes</h1>
+  <ul>
+    <!-- Ranges through content/recipes/*.md -->
+    {{ range first 2 (where .Site.RegularPages "Section" "recipes") }}
+    <li>
+      <a href="{{.Permalink}}">{{.Title}}</a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
