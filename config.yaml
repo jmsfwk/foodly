@@ -1,9 +1,16 @@
 languageCode: en-gb
 title: foodly
 theme: hugo-coder
+baseURL: http://localhost
 
 menu:
   main:
     - name: Recipes
       weight:  1
       url: /recipes/
+    - name: Garden Diary
+      weight:  2
+      url: /garden-diary/
+
+permalinks:
+  garden-diary: /garden-diary/:year:/:month/:day
