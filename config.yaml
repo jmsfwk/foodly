@@ -14,3 +14,6 @@ menu:
 
 permalinks:
   garden-diary: /garden-diary/:year:/:month/:day
+
+params:
+  dateFormat: 2 January 2006

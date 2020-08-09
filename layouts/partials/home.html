@@ -2,10 +2,18 @@
   <h1>Latest Recipes</h1>
   <ul>
     <!-- Ranges through content/recipes/*.md -->
-    {{ range first 2 (where .Site.RegularPages "Section" "recipes") }}
+    {{ range first 5 (where .Site.RegularPages "Section" "recipes") }}
     <li>
       <a href="{{.Permalink}}">{{.Title}}</a>
     </li>
+    {{ end }}
+  </ul>
+  <h1>Garden Diary</h1>
+  <ul>
+    <!-- Ranges through content/recipes/*.md -->
+    {{ range first 5 (where .Site.RegularPages "Section" "garden-diary") }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Date.Format (.Site.Params.dateFormat | default "2 January 2006" ) }}</a>
     {{ end }}
   </ul>
 </section>
