@@ -1,0 +1,22 @@
+{{ if or (.PrevInSection) (.NextInSection) }}
+<div class="next-prev">
+  {{with .PrevInSection }}
+    <a href="{{ .Permalink }}" class="prev"><span aria-hidden="true">&larr;</span> {{ .Title | safeHTML }}</a>
+  {{ end }}
+  {{with .NextInSection }}
+    <a href="{{ .Permalink }}" class="next">{{ .Title | safeHTML }} <span aria-hidden="true">&rarr;</span></a>
+  {{ end }}
+</div>
+<style>
+.next-prev {
+  display: flex;
+  justify-content: space-between;
+}
+.next-prev .prev {
+  margin-right: auto;
+}
+.next-prev .next {
+  margin-left: auto;
+}
+</style>
+{{ end }}
