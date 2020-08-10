@@ -1,11 +1,11 @@
 ---
-title: "2020-08-09"
+title: 9 August 2020
 date: 2020-08-09T19:32:51Z
 ---
 
 I planted out 5 pea plants today (*Hurst Green Shaft*). The two closest to the house
 are bigger and have better root systems. They should grow to about 70cm, so I'll need
-to new, taller stakes. They should be ready to harvest in about 10 weeks (mid October).
+new, taller stakes. They should be ready to harvest in about 10 weeks (mid October).
 
 <!--more-->
 
