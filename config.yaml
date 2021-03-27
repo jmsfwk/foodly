@@ -8,12 +8,6 @@ menu:
     - name: Recipes
       weight:  1
       url: /recipes/
-    - name: Garden Diary
-      weight:  2
-      url: /garden-diary/
-
-permalinks:
-  garden-diary: /garden-diary/:year:/:month/:day
 
 params:
   dateFormat: 2 January 2006
