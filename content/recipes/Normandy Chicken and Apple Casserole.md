@@ -1,7 +1,7 @@
 ---
 title: "Normandy Chicken & Apple Casserole"
 date: 2023-01-31T21:08:00Z
-draft: true
+draft: false
 tags:
   - Meat
   - Chicken
