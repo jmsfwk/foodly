@@ -1,0 +1,6 @@
+.php-cs-fixer.cache/
+node_modules/
+public/
+vendor/
+.env
+package-lock.json
