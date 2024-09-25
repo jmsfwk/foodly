@@ -1,3 +1,4 @@
+@use(App\RecipeController)
 @extends('layout')
 @section('title', 'foodly')
 @section('content')
@@ -12,7 +13,7 @@
                 <time datetime="{{ $recipe->datePublished->format(DATE_ATOM) }}">
                     {{ $recipe->datePublished->format('d F Y') }}
                 </time>
-                <span class="font-bold">{{ $recipe->name }}</span>
+                <a href="{{ \Tempest\uri(RecipeController::class, slug: $slug) }}" class="font-bold">{{ $recipe->name }}</a>
             </li>
         @endforeach
     </ul>

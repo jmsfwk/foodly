@@ -8,7 +8,7 @@
 </head>
 <body class="container max-w-screen-md mx-auto bg-zinc-200 text-zinc-900">
     <nav class="my-2.5">
-        <a href="/" class="font-bold uppercase transition duration-300 hover:text-sky-600 hover:underline focus:text-sky-600 focus:underline">Foodly</a>
+        <a href="/" class="font-bold uppercase">Foodly</a>
     </nav>
     <main class="mt-20">
         @yield('content')
