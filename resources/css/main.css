@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .list {
+        @apply list-inside list-disc ps-5;
+    }
+}

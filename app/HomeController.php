@@ -11,8 +11,11 @@ use function Tempest\view;
 final readonly class HomeController
 {
     #[Get('/')]
-    public function __invoke(): View
+    public function __invoke(RecipeRepository $repository): View
     {
-        return view('home.view.php');
+        $recipes = collect($repository->all())
+            ->sortBy('publishedAt');
+
+        return view('home')->data(...compact('recipes'));
     }
 }

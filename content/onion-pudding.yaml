@@ -1,0 +1,26 @@
+"@context": https://schema.org/
+"@type": Recipe
+name: Onion Pudding
+author:
+  "@type": Person
+  name: James Fenwick
+datePublished: 2020-04-12T18:33:41+01:00
+recipeIngredient:
+  - 8oz self raising flour
+  - 4oz suet
+  - Pinch of salt
+  - 1 onion
+  - Water
+recipeInstructions:
+  - "@type": HowToStep
+    name: Dice
+    text: Finely dice the onion
+  - "@type": HowToStep
+    name: Mix
+    text: Mix dry ingredients with the onion
+  - "@type": HowToStep
+    name: Make dough
+    text: Add water to make dough
+  - "@type": HowToStep
+    name: Cook
+    text: Cook at 200℃ for about 20 minutes, until the onion is soft, and the dough is crisp and golden
