@@ -1,0 +1,34 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - tempest
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          extensions: libxml, mbstring, fileinfo
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+
+      - name: Install Composer Dependencies
+        run: composer install
+
+      - name: Generate CSS
+        run: npm run build
+
+      - name: Generate Static Files
+        run: php ./tempest static:generate
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3.9.2
+        with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
