@@ -1,0 +1,64 @@
+"@context": https://schema.org/
+"@type": Recipe
+name: Normandy Chicken & Apple Casserole
+description: This recipe is from [Gousto](https://www.gousto.co.uk/cookbook/recipes/oven-baked-normandy-chicken-apple-casserole) and serves 2.
+author:
+  "@type": Organisation
+  name: Gousto
+datePublished: 2023-01-31T21:08:00Z
+recipeYield: 2 servings
+keywords: meat chicken
+recipeCuisine: French
+nutrition:
+  "@type": NutritionalInformation
+  calories: 501 calories
+  fatContent: 12.9 g
+  saturatedFatContent: 5.4 g
+  carbohydrateContent: 56.2 g
+  sugarContent: 16.1 g
+  proteinContent: 38 g
+#  salt: 2.56
+recipeIngredient:
+  - 5ml Chinese rice wine
+  - 11g chicken stock mix
+  - 2 ciabattas
+  - 21g wholegrain mustard
+  - 250g chicken thigh, diced
+  - 50g soft cheese
+  - 5g chives
+  - 80g fine green beans
+  - 2 garlic cloves
+  - 1 brown onion
+  - 1 apple
+  - 1tsp flour
+  - olive oil
+  - salt and pepper
+recipeInstructions:
+  - "@type": HowToStep
+    text: |
+      Preheat the oven to 220°C / 200°C fan / gas 7  
+      Boil half a kettle  
+      Heat a large, wide-based, hob-safe oven-proof casserole dish with a drizzle of olive oil over a medium-high heat
+  - "@type": HowToStep
+    text: |
+      Chop the **apple** into wedges and remove the core
+      Peel and chop the **brown onion** into wedges
+  - "@type": HowToStep
+    text: |
+      Add the **diced chicken thigh** to the dish with **1 tsp** flour and cook for 30 secs  
+      Crush the **garlic cloves** open by squashing them with the side of a knife and remove the skins
+  - "@type": HowToStep
+    text: |
+      Add the **chopped apple** and **onion wedges** with the **crushed garlic** and give everything a good stir  
+      Add the **chicken stock mix** and 200ml **boiled water**
+  - "@type": HowToStep
+    text: |
+      Add the **Chinese rice wine** and stir through with the **wholegrain mustard** and **soft cheese**  
+      Bring to the boil over a high heat, then put the dish in the oven, uncovered, for 30-35 min or until the chicken is cooked through – this is your **Normandy chicken & apple casserole**
+  - "@type": HowToStep
+    text: |
+      Once the casserole is almost done, trim the **green beans** and add to one side of a baking tray with a drizzle of **olive oil** and a pinch of **salt** (use tin foil to avoid mess!)  
+      Add the **ciabattas** to the other side of the tray
+      Put the tray in the oven for 7-9 min or until the green beans are tender but retaining a bite and the ciabattas are warm and crusty
+      To serve, chop the **chives** and sprinkle them all over the **Normandy chicken & apple casserole** then season with **pepper**
+      Serve the **green beans** and **crusty ciabattas** to the side

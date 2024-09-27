@@ -1,0 +1,38 @@
+"@context": https://schema.org/
+"@type": Recipe
+name: James' Macaroni Cheese
+description: This is my version of Macaroni Cheese. I don't use macaroni if I can help it because it becomes too dense.
+author:
+  "@type": Person
+  name: James Fenwick
+datePublished: 2020-02-09T13:14:40Z
+recipeYield: 4 servings
+recipeIngredient:
+  - 350g dried pasta shapes (spirelli, fusilli etc.)
+  - 1 large onion
+  - 4 rashers of bacon
+  - 50g butter
+  - 50g plain flour
+  - 750ml semi-skimmed milk
+  - 1 stock cube
+  - 1 tsp Dijon mustard
+  - 150g mature Cheddar cheese
+  - 30g Parmesan cheese
+  - Handful of breadcrumbs
+recipeInstructions:
+  - "@type": HowToStep
+    text: Preheat the oven to 200℃ / gas mark 6.
+  - "@type": HowToStep
+    text: Cook the pasta in a large pan of well salted water until slightly undercooked.
+  - "@type": HowToStep
+    text: Finely chop the onion and bacon and gently fry until coloured then set aside, meanwhile grate the cheese.
+  - "@type": HowToStep
+    text: Melt the butter in a large sauce pan and add the flour then cook for a minute or two.
+  - "@type": HowToStep
+    text: Slowly add the milk to the roux. When it is all added crumble the stock cube into the sauce and bring to a simmer for a minute.
+  - "@type": HowToStep
+    text: Add the onion and bacon mixture, cheddar cheese and the mustard to the sauce, then season with salt and pepper.
+  - "@type": HowToStep
+    text: Mix the pasta into the sauce and check the seasoning.
+  - "@type": HowToStep
+    text: Pour the pasta and sauce into a baking dish and top with the parmesan and breadcrumbs. Bake for 20 minutes.

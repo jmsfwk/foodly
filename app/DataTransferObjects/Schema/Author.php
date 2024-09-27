@@ -4,18 +4,18 @@ namespace App\DataTransferObjects\Schema;
 
 use JsonSerializable;
 
-class HowToStep implements JsonSerializable
+class Author implements JsonSerializable
 {
     public function __construct(
-        public string $text,
+        public string $name,
     ) {
     }
 
     public function jsonSerialize(): mixed
     {
         return [
-            '@type' => 'HowToStep',
-            'text' => $this->text,
+            '@type' => 'Person',
+            'name' => $this->name,
         ];
     }
 }

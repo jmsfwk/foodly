@@ -1,0 +1,51 @@
+"@context": https://schema.org/
+"@type": Recipe
+name: Turkish Carrot and Lentil Soup
+description: |
+  The bulghur and lentils add some body and protein to this smokey, comforting soup. Add a cautious pinch or two of cayenne at the end; it can be potent stuff.
+
+  This recipe is from a [Riverford](https://www.riverford.co.uk/) soup bag.
+datePublished: 2020-01-12
+recipeCategory: Soup
+recipeCuisine: Turkish
+author:
+  "@type": Organisation
+  name: Riverford
+keywords: soup vegetarian
+nutrition:
+  "@type": NutritionInformation
+  calories: 57 kcal
+  fatContent: 2.9 g
+  saturatedFatContent: 0.3 g
+  carbohydrateContent: 5.2 g
+  sugarContent: 3 g
+  proteinContent: 1.5 g
+  sodiumContent: 0.14 g
+recipeIngredient:
+   - 1 onion
+   - 2 red peppers
+   - 400g carrots
+   - 1 garlic clove
+   - 1 bay leaf
+   - 1 tsp paprika
+   - 2 tsp cumin
+   - 40g red lentils
+   - 20g bulghur wheat
+   - 20g flaked almonds
+   - 1 lemon
+   - 1/4 tsp cayenne pepper
+   - fresh mint
+recipeInstructions:
+  - "@type": HowToStep
+    text: Peel and slice the onion. Deseed and slice the peppers. Peel and roughly chop the carrots. Warm 2 tbsp of oil in a large saucepan and gently fry them together for 10 minutes, until starting to soften.
+  - "@type": HowToStep
+    text: Meanwhile, peel and chop the garlic.
+  - "@type": HowToStep
+    text: Add the garlic, bay, cumin, lentils, and bulghur to the pan and cook for a further 2 minutes before adding 800ml of water. Bring to a simmer and season with salt and pepper. Cook gently for 25 minutes, until everything is cooked and softened.
+  - "@type": HowToStep
+    text: While the soup cooks, lightly toast the almonds in a dry frying pan over a medium heat, until golden.
+  - "@type": HowToStep
+    text: When ready, remove the bay leaf and blend until completely smooth. Thin with a little more water if it seems thick. Taste and tweak the seasoning with salt, pepper, a squeeze or two of lemon, and a cautious pinch of cayenne, to your liking.
+  - "@type": HowToStep
+    text: Serve and garnish with the toasted almonds and some freshly chopped mint leaves.
+

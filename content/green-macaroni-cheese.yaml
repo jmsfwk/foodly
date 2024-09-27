@@ -1,0 +1,50 @@
+"@context": https://schema.org/
+"@type": Recipe
+name: Green Macaroni Cheese
+image:
+  - https://asset.jamieoliver.com/images/cq7w2e71/production/f92780167bc874ce41631ed99b76f1ad9c8c2ee2-958x1280.jpg/92507790?rect=0,0,958,958&w=1600&h=1600&fm=webp&q=80&fit=crop&auto=format
+  - https://asset.jamieoliver.com/images/cq7w2e71/production/f92780167bc874ce41631ed99b76f1ad9c8c2ee2-958x1280.jpg/92507790?rect=0,2,958,1277&w=1600&h=1600&fm=webp&q=80&fit=crop&auto=format
+author:
+  "@type": Person
+  name: Jamie Oliver
+  url: https://www.jamieoliver.com/recipes/pasta-recipes/greens-mac-n-cheese/
+datePublished: 2019-08-30
+recipeYield: 6 servings
+description: This is Greens mac 'n' cheese from Jamie Oliver.
+nutrition:
+  "@type": NutritionInformation
+  calories: 619 calories
+  fatContent: 25.1 g
+  saturatedFatContent: 12.4 g
+  carbohydrateContent: 75.1 g
+  sugarContent: 12 g
+  fibreContent: 6.4 g
+  proteinContent: 29 g
+recipeIngredient:
+  - 1 large leek
+  - 3 cloves of garlic
+  - 400g broccoli
+  - 40g unsalted butter
+  - 1/2 a bunch of fresh thyme (15g)
+  - 2 tbsp plain flour
+  - 1 litre semi-skimmed milk
+  - 450g dried macaroni
+  - 30g Parmesan cheese
+  - 150g mature Cheddar cheese
+  - 100g baby spinach
+  - 50g flaked almonds
+recipeInstructions:
+  - "@type": HowToStep
+    text: Preheat the oven to 180℃ / gas mark 4.
+  - "@type": HowToStep
+    text: Cut the broccoli into florets and set aside, trim and finely slice the stalk. Clean and slice the leek and garlic. Melt the butter in a large frying pan and fry the vegetables with the thyme for 15 minutes, stirring regularly.
+  - "@type": HowToStep
+    text: Stir in the flour, slowly add the milk and simmer for 10 minutes until thickened.
+  - "@type": HowToStep
+    text: Meanwhile, cook the macaroni in a large pan of salted water for 5 minutes.
+  - "@type": HowToStep
+    text: Grate the parmesan and most of the cheddar and mix into the sauce.
+  - "@type": HowToStep
+    text: Blend the sauce and spinach in a blender until smooth, season with salt and pepper and mix with the macaroni and broccoli florets.
+  - "@type": HowToStep
+    text: Tip into a baking dish and top with the remaining cheese and the almonds. Bake for 30 minutes.
