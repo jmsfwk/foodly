@@ -19,7 +19,7 @@
         ]
     },
     "require": {
-        "tempest/framework": "^0.0.7",
+        "tempest/framework": "dev-main#140f9eb",
         "symfony/yaml": "^7.1",
         "jenssegers/blade": "^2.0",
         "illuminate/view": "~11.7.0"
