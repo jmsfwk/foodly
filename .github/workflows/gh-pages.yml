@@ -27,6 +27,8 @@ jobs:
 
       - name: Generate Static Files
         run: php ./tempest static:generate
+        env:
+          BASE_URI: ${{ vars.BASE_URI }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4.0.0
